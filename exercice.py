@@ -18,7 +18,7 @@ def use_prefixes() -> List[str]:
 
     i = 0
     chaine_noms = []
-    while i < (len(prefixes)-1):
+    while i < len(prefixes):
         chaine_noms.append(prefixes[i] + suffixes)
         i+=1
 

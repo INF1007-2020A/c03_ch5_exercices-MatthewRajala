@@ -18,7 +18,7 @@ def use_prefixes() -> List[str]:
 
     i = 0
     chaine_noms = []
-    while i < (len(prefixes)):
+    while i < (len(prefixes)): # jusqu'au dernier caractere
         chaine_noms.append(prefixes[i] + suffixes)
         i+=1
 

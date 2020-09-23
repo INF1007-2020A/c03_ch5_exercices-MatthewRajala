@@ -49,11 +49,22 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
+    factorielle = 1
+
+    for i in range(1, number+1):
+        factorielle = factorielle*i
+    return factorielle
 
 
 def use_continue() -> None:
-    pass
+    i = 1
+
+    while i <= 10:
+        if i == 5:  # ne pas afficher 5
+            i += 1
+            continue
+        print(i, " ", end="")
+        i+=1
 
 
 def main() -> None:

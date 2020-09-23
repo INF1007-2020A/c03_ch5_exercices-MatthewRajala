@@ -18,7 +18,11 @@ def use_prefixes() -> List[str]:
 
     i = 0
     chaine_noms = []
+<<<<<<< .mine
     while i < (len(prefixes)): # jusqu'au dernier caractere
+=======
+    while i < len(prefixes):
+>>>>>>> .theirs
         chaine_noms.append(prefixes[i] + suffixes)
         i+=1
 

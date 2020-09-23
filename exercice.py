@@ -18,16 +18,12 @@ def use_prefixes() -> List[str]:
 
     i = 0
     chaine_noms = []
-<<<<<<< .mine
-    while i < (len(prefixes)): # jusqu'au dernier caractere
-=======
-    while i < len(prefixes):
->>>>>>> .theirs
+
+    while i < len(prefixes): # jusqu'au dernier caractere
         chaine_noms.append(prefixes[i] + suffixes)
         i+=1
 
     return chaine_noms
-
 
 def prime_integer_summation() -> int:
     cpt_cent = 0
